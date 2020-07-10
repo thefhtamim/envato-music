@@ -107,12 +107,18 @@ body h2 p h3 span h4 {
     color: white;
 }
 
+.block-4 .col-md-4 img {
+    max-width: 100%!important;
+}
+
+
+
 @media only screen and (max-width: 768px){  
     .div2 p {
         max-width: 100%!important;
     } 
     .circle img {
-        margin-top: -35%;
+        margin-top: -28%;
         max-width: 10%!important;
     }
     .caption-1 p{
@@ -176,6 +182,21 @@ body h2 p h3 span h4 {
     .big-frame-event .media{
         display: block!important;
     }
+    .serv-xc .col-md-4 img {
+        max-width: 100%!important;
+    }
+    .serv-xc .col-md-4  {
+        text-align: center!important;
+    }
+    .big-frame-event .media {
+        max-width: 100%!important;
+    }
+    .big-frame-event {
+        text-align: center!important;
+    }
+    .block-4 .col-md-4 {
+        text-align: center;
+    }
     .block-4 h2 {
     font-size: 30px!important;
     }
@@ -203,13 +224,66 @@ body h2 p h3 span h4 {
 
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .circle img {
+        margin-top: 2%;
+        max-width: 100%!important;
+    }
+     .space-top img {
+        position: absolute;
+        top: 26%;
+        left: 12px;
+        max-width: 70%;
+        height: 40%!important;
+    }
+    .div2 p {
+        max-width: 60%!important;
+        padding-left: 30px!important;
+    } 
+    .house-ticket-one {
+        padding-top: 80px!important;
+        text-align: right!important;
+    }
+    .inner-text-one {
+        text-align: left!important;
+    }
+    .inner-text {
+        text-align: left!important;
+    }
+    .inner-text h3 {
+        margin-left: 0px!important
+    }
+    .inner-text-one h3 {
+        margin-left: 0px!important 
+    }
+    .feature-section-inner {
+        text-align: left!important;
+    }
+    .img-sect img {
+        padding-right: 5px!important;
+    }
+    .serv-xc .col-md-4 {
+        padding-bottom: 0px!important;
+    }
+    .ul-social-media-icons li img {
+        max-width: 12%!important;
+        margin-bottom: 15px!important;
+    }
+   
+}
 .cv-0  {
     text-align: right;
 }
 
-.big-frame-event .media{
+.big-frame-event .ul-media{
         display: none;
+        max-width: 100%!important;
     }
+.big-frame-event .desktop{
+        display: block!important;
+}
+
+
 /*  */
 
 .bloc-3 img {
@@ -314,6 +388,8 @@ opacity: 0.34;
 .block-4 {
     padding-top: 5%;
 }
+
+
 
 .btn-ticket {
 background-color: #01A9B4;
